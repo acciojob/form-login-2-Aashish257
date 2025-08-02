@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+label {
+	line-height: 18px;
+	font-style: italic;
+}
+input {
+	font-size: 20px;
+	border-radius: 8px;
+}
+
+button {
+	width: 70px;
+	height: 20px;
+	border-color: gray;
+}
+
+
