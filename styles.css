@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.form {
+form {
 	display: flex;
 	flex-direction: column;
 	gap: 6px;

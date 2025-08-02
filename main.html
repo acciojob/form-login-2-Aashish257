@@ -9,6 +9,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<div class="form">
+		<form onsubmit="details(event)">
 		<label for="first_name">First Name</label>
 		<input name="First Name" id="first_name" type="text">
 		<label for="last_name">Last Name</label>
@@ -17,7 +18,9 @@
 		<input name="Phone Number" id="phone_number" type="tel">
 		<label class="Email_id">Email ID</label>
 		<input name="Email ID" id="Email_id" type="email">
-		<button type="submit" onclick="details()">Submit</button>
+		<button type="submit">Submit</button>
+		</form>
+	
 	</div>
     <script type="text/javascript" src="./script.js">
 </script>
